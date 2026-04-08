@@ -1,0 +1,215 @@
+@keyframes rain {
+  0% {
+    background-position: 0px 0px;
+  }
+
+  100% {
+    background-position: 500px 1000px;
+  }
+}
+
+@-webkit-keyframes rain {
+  0% {
+    background-position: 0px 0px;
+  }
+
+  100% {
+    background-position: 500px 1000px;
+  }
+}
+
+.effect-rain {
+  background-image: url("https://w.ladicdn.com/s450x400/6446a909ce8883001284c7a2/traitim-size2-20231213075433-pjmzq.png");
+  -webkit-animation: rain 2s linear infinite;
+  animation: rain 2s linear infinite;
+}
+
+@keyframes sparkle {
+  0% {
+    background-position:
+      0px 0px,
+      0px 0px,
+      0px 0px;
+  }
+
+  100% {
+    background-position:
+      -500px -1000px,
+      -400px -400px,
+      300px 300px;
+  }
+}
+
+@-webkit-keyframes sparkle {
+  0% {
+    background-position:
+      0px 0px,
+      0px 0px,
+      0px 0px;
+  }
+
+  100% {
+    background-position:
+      -500px -1000px,
+      -200px -400px,
+      300px 300px;
+  }
+}
+
+.effect-sparkle {
+  background-image:
+    url("https://w.ladicdn.com/s550x550/6446a909ce8883001284c7a2/sparkle1-20231210061725-zdcce.png"),
+    url("https://w.ladicdn.com/s550x550/6446a909ce8883001284c7a2/sparkle2-20231210061725-kp_vi.png");
+  -webkit-animation: sparkle 60s linear infinite;
+  animation: sparkle 60s linear infinite;
+}
+
+@keyframes glass {
+  0% {
+    background-position:
+      0px 0px,
+      0px 0px,
+      0px 0px;
+  }
+
+  100% {
+    background-position:
+      500px 1000px,
+      400px 400px;
+  }
+}
+
+@-webkit-keyframes glass {
+  0% {
+    background-position:
+      0px 0px,
+      0px 0px,
+      0px 0px;
+  }
+
+  100% {
+    background-position:
+      500px 1000px,
+      -400px -400px;
+  }
+}
+
+.effect-sliding-glass {
+  background-image:
+    url("../img/effects/glass1.png"), url("../img/effects/glass2.png");
+  -webkit-animation: glass 30s linear infinite;
+  animation: glass 30s linear infinite;
+}
+
+@keyframes confetti {
+  0% {
+    background-position:
+      0px 0px,
+      0px 0px,
+      0px 0px;
+  }
+
+  100% {
+    background-position:
+      500px 1000px,
+      400px 400px,
+      300px 300px;
+  }
+}
+
+@-webkit-keyframes confetti {
+  0% {
+    background-position:
+      0px 0px,
+      0px 0px,
+      0px 0px;
+  }
+
+  100% {
+    background-position:
+      500px 1000px,
+      400px 400px,
+      300px 300px;
+  }
+}
+
+.effect-confetti {
+  background-image:
+    url("../img/effects/confetti1.png"), url("../img/effects/confetti2.png");
+  -webkit-animation: confetti 10s linear infinite;
+  animation: confetti 10s linear infinite;
+}
+
+@keyframes snow {
+  0% {
+    background-position:
+      0px 0px,
+      0px 0px,
+      0px 0px;
+  }
+
+  100% {
+    background-position:
+      500px 1000px,
+      400px 400px,
+      300px 300px;
+  }
+}
+
+@-webkit-keyframes snow {
+  0% {
+    background-position:
+      0px 0px,
+      0px 0px,
+      0px 0px;
+  }
+
+  100% {
+    background-position:
+      500px 1000px,
+      400px 400px,
+      300px 300px;
+  }
+}
+
+.effect-snow {
+  background-image: url("https://w.ladicdn.com/s550x450/6446a909ce8883001284c7a2/traitim-size2-20231213080553-0bimd.png");
+  -webkit-animation: snow 40s linear infinite;
+  animation: snow 40s linear infinite;
+}
+
+#IMAGE134.ladi-animation > .ladi-image,
+#IMAGE135.ladi-animation > .ladi-image,
+#IMAGE136.ladi-animation > .ladi-image,
+#IMAGE137.ladi-animation > .ladi-image,
+#IMAGE138.ladi-animation > .ladi-image {
+  filter: contrast(103%) brightness(176%) saturate(101%) sepia(0%)
+    grayscale(33%) hue-rotate(-17deg);
+}
+
+#IMAGE67.ladi-animation > .ladi-image,
+#IMAGE91 > .ladi-image,
+#IMAGE92 > .ladi-image,
+#IMAGE57.ladi-animation > .ladi-image {
+  filter: saturate(100%) hue-rotate(299deg);
+}
+#IMAGE30.ladi-animation > .ladi-image,
+#IMAGE301.ladi-animation > .ladi-image,
+#IMAGE33.ladi-animation > .ladi-image,
+#IMAGE34.ladi-animation > .ladi-image,
+#IMAGE29.ladi-animation > .ladi-image {
+  filter: contrast(100%) brightness(100%) saturate(100%) hue-rotate(119deg);
+}
+
+#IMAGE56.ladi-animation > .ladi-image {
+  filter: saturate(100%) hue-rotate(132deg);
+}
+
+#IMAGE75.ladi-animation > .ladi-image {
+  filter: saturate(100%) hue-rotate(232deg);
+}
+
+#IMAGE122.ladi-animation > .ladi-image,
+#IMAGE120.ladi-animation > .ladi-image {
+  filter: saturate(100%) hue-rotate(292deg);
+}
