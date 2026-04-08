@@ -6,8 +6,8 @@ const canDelete = urlParams.get("key") === managerSignatureKey;
 
 let selectedSignature = null;
 
-const sheetID = "1lOngNYaADmWMj7vCUXBSbsMrODpLcNAN8pxAaMl6mvA";
-const gid = "87545950";
+const sheetID = "1X77Xk9dLVXRppohCfycaMCSg2n77nBJ7Zzm4HKhS3Jc";
+const gid = "409459486";
 const urlSheet = `https://docs.google.com/spreadsheets/d/${sheetID}/gviz/tq?tqx=out:json&gid=${gid}`;
 
 function updateData(data, sizePercent) {
